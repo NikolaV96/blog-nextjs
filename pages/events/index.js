@@ -11,7 +11,7 @@ export default function AllEventsPage() {
     const fullPath = `/events/${year}/${month}`;
     router.push(fullPath);
   }
-  return (
+  return ( 
     <Fragment>
       <EventsSearch onSearch={findEventsHandler} />
       <EventList items={events} />
